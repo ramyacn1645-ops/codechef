@@ -9,3 +9,15 @@ while i<3:
         c = None  # Assigning a default value to prevent a crash
     print("This line will also be printed, as our program is not crashed")
     i=i+1
+
+##------
+numerator = int(input())
+denominator = int(input())
+
+# Perform division with error handling
+try:
+    x = numerator/denominator
+    print(x)
+except ZeroDivisionError:
+    print("Division  not allowed")
+#print("Division is not allowed")
