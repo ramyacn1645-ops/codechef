@@ -1,1 +1,11 @@
-
+i = 0
+while i<3:
+    a = 10
+    b = 0
+    try:
+        c = a / b  # This will raise a ZeroDivisionError
+    except:
+        print("Error: invalid value of c")
+        c = None  # Assigning a default value to prevent a crash
+    print("This line will also be printed, as our program is not crashed")
+    i=i+1
