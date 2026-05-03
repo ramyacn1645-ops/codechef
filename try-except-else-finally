@@ -20,4 +20,11 @@ try:
     print(x)
 except ZeroDivisionError:
     print("Division  not allowed")
-#print("Division is not allowed")
+
+
+#----
+try:
+    x = int(input())
+    print(x)
+except ValueError:
+    print("Invalid Integer")
