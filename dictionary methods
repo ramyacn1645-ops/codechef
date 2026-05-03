@@ -1,0 +1,20 @@
+team_scores = {
+    'Team A': 85,
+    'Team B': 90,
+    'Team C': 78
+}
+
+# Step 2: Take user input for updates
+updates = input()
+x = int(input())
+
+
+# Step 3: Check the condition before updating
+if x < 100:
+    team_scores.update({updates:x})
+    print(team_scores)
+else:
+    print("Update not allowed")
+
+# Step 4: Print the updated dictionary
+    print(team_scores)
