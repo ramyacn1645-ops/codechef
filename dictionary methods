@@ -40,3 +40,29 @@ result = {
 
 # Print result
 print(result)
+#---
+# Create the nested dictionary
+movie_collection = {
+    "Inception": {
+        "Director": "Christopher Nolan",
+        "Year": 2010
+    },
+    "Titanic": {
+        "Director": "James Cameron",
+        "Year": 1997
+    },
+    "The Matrix": {
+        "Director": "Lana & Lilly Wachowski",
+        "Year": 1999
+    }
+}
+
+# Print Titanic details
+print(movie_collection["Titanic"]["Director"])
+print(movie_collection["Titanic"]["Year"])
+
+# Update the year
+movie_collection["Titanic"]["Year"] = 1998
+
+# Print updated year
+print(movie_collection["Titanic"]["Year"])
