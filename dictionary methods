@@ -68,7 +68,7 @@ movie_collection["Titanic"]["Year"] = 1998
 print(movie_collection["Titanic"]["Year"])
 
 # dictionary of lists
-avorite_books = {
+favorite_books = {
     'Fiction': ['The Great Gatsby', '1984'],
     'Non-Fiction': ['Sapiens', 'Educated'],
     'Mystery': ['The Girl with the Dragon Tattoo', 'Gone Girl'],
@@ -77,3 +77,19 @@ avorite_books = {
 
 favorite_books['Mystery'].append('The Da Vinci Code')
 print(len(favorite_books['Mystery']))
+## example-2 dicionary of lists
+# Create the dictionary
+student_subjects = {
+    "Alice": ["Math", "Science", "History"],
+    "Bob": ["English", "Geography"],
+    "Charlie": ["Physics", "Chemistry", "Biology"]
+}
+
+# Safely retrieve Bob's subjects using get()
+print(student_subjects.get("Bob"))
+
+# Add "Computer Science" to Alice's subjects
+student_subjects["Alice"].append("Computer Science")
+
+# Print total number of subjects Alice has
+print(len(student_subjects["Alice"]))
