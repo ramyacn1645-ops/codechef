@@ -66,3 +66,14 @@ movie_collection["Titanic"]["Year"] = 1998
 
 # Print updated year
 print(movie_collection["Titanic"]["Year"])
+
+# dictionary of lists
+avorite_books = {
+    'Fiction': ['The Great Gatsby', '1984'],
+    'Non-Fiction': ['Sapiens', 'Educated'],
+    'Mystery': ['The Girl with the Dragon Tattoo', 'Gone Girl'],
+    'Science Fiction': ['Dune', 'Neuromancer']
+}
+
+favorite_books['Mystery'].append('The Da Vinci Code')
+print(len(favorite_books['Mystery']))
