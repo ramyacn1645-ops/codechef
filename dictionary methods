@@ -18,3 +18,25 @@ else:
 
 # Step 4: Print the updated dictionary
     print(team_scores)
+
+#dictionary comphrenssion with condition
+# Original dictionary
+students_scores = {
+    "Alice": 85,
+    "Bob": 72,
+    "Charlie": 90,
+    "David": 65,
+    "Eva": 78
+}
+
+# Passing score
+passing_score = 75
+
+# Create new dictionary using comprehension
+result = {
+    student: "Pass" if students_scores.get(student, 0) >= passing_score else "Fail"
+    for student in students_scores
+}
+
+# Print result
+print(result)
