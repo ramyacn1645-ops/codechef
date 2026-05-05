@@ -20,7 +20,7 @@ else:
     print(team_scores)
 
 #dictionary comphrenssion with condition
-# Original dictionary
+
 students_scores = {
     "Alice": 85,
     "Bob": 72,
@@ -78,7 +78,7 @@ favorite_books = {
 favorite_books['Mystery'].append('The Da Vinci Code')
 print(len(favorite_books['Mystery']))
 ## example-2 dicionary of lists
-# Create the dictionary
+#
 student_subjects = {
     "Alice": ["Math", "Science", "History"],
     "Bob": ["English", "Geography"],
