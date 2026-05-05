@@ -16,7 +16,7 @@ if x < 100:
 else:
     print("Update not allowed")
 
-# Step 4: Print the updated dictionary
+
     print(team_scores)
 
 #dictionary comphrenssion with condition
@@ -29,7 +29,7 @@ students_scores = {
     "Eva": 78
 }
 
-# Passing score
+#
 passing_score = 75
 
 # Create new dictionary using comprehension
