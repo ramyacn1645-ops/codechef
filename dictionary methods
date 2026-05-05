@@ -57,11 +57,11 @@ movie_collection = {
     }
 }
 
-# Print Titanic details
+
 print(movie_collection["Titanic"]["Director"])
 print(movie_collection["Titanic"]["Year"])
 
-# Update the year
+
 movie_collection["Titanic"]["Year"] = 1998
 
 # Print updated year
