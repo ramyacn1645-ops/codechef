@@ -140,3 +140,18 @@ for word in words:
 
 # Print the final dictionary
 print(dict(word_freq))
+#---
+from collections import Counter
+
+# Step 1: Create a list of colors
+colors = ['red', 'blue', 'red', 'green', 'blue', 'yellow', 'green', 'green']
+
+# Step 2: Use Counter to count occurrences
+color_count = Counter(colors)
+
+# Step 3: Sort dictionary by values in descending order
+sorted_colors = dict(sorted(color_count.items(), key=lambda x: x[1], reverse=True))
+
+# Step 4: Print the final sorted dictionary
+print(sorted_colors)
+
