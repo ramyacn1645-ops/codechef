@@ -93,3 +93,28 @@ student_subjects["Alice"].append("Computer Science")
 
 # Print total number of subjects Alice has
 print(len(student_subjects["Alice"]))
+
+
+#----
+from collections import defaultdict
+
+# List of animals and their types
+animals = [
+    ('dog', 'mammal'),
+    ('cat', 'mammal'),
+    ('parrot', 'bird'),
+    ('goldfish', 'fish'),
+    ('pigeon', 'bird'),
+    ('lion', 'mammal'),
+    ('salmon', 'fish')
+]
+
+# Create a defaultdict with list as the default type
+animal_groups = defaultdict(list)
+
+# Group animals by their type
+for animal, animal_type in animals:
+    animal_groups[animal_type].append(animal)
+
+# Print the grouped animals
+print(dict(animal_groups))
