@@ -118,3 +118,25 @@ for animal, animal_type in animals:
 
 # Print the grouped animals
 print(dict(animal_groups))
+
+#---
+from collections import defaultdict
+
+# Prompt the user to input a sentence/paragraph
+paragraph = input("Enter a paragraph: ")
+
+# Convert to lowercase
+paragraph = paragraph.lower()
+
+# Split into words
+words = paragraph.split()
+
+# Initialize defaultdict
+word_freq = defaultdict(int)
+
+# Update counts
+for word in words:
+    word_freq[word] += 1
+
+# Print the final dictionary
+print(dict(word_freq))
