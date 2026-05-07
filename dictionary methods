@@ -140,7 +140,9 @@ for word in words:
 
 # Print the final dictionary
 print(dict(word_freq))
-#---
+
+
+#using counter in dictionary
 from collections import Counter
 
 # Step 1: Create a list of colors
