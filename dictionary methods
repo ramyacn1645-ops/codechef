@@ -29,10 +29,10 @@ students_scores = {
     "Eva": 78
 }
 
-#
+
 passing_score = 75
 
-# Create new dictionary using comprehension
+
 result = {
     student: "Pass" if students_scores.get(student, 0) >= passing_score else "Fail"
     for student in students_scores
