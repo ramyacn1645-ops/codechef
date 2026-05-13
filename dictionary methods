@@ -151,7 +151,7 @@ colors = ['red', 'blue', 'red', 'green', 'blue', 'yellow', 'green', 'green']
 # Step 2: Use Counter to count occurrences
 color_count = Counter(colors)
 
-# Step 3: Sort dictionary by values in descending order
+
 sorted_colors = dict(sorted(color_count.items(), key=lambda x: x[1], reverse=True))
 
 
