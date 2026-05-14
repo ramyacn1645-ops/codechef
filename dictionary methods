@@ -4,7 +4,7 @@ team_scores = {
     'Team C': 78
 }
 
-# Step 2: Take user input for updates
+# Step 2: Take user input for update
 updates = input()
 x = int(input())
 
